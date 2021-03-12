@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Inter|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      type="image/x-icon"
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIvvXSNdd436gAxWSBJRnc_pIbUB9fjQkeSSS5Y7N_3qaVm0Gu&s"
+    />
+    <link rel="stylesheet" href="TTTAI.css" />
+    <script src="TTTAI.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TicTacToe AI</title>
+  </head>
+  <body>
+    <div class="btns">
+      <a><button onClick="startGame()" class="retry">Retry</button></a>
+      <a href="index.html"><button class="retry">Against Human</button></a>
+    </div>
+    <table border="2" id="board">
+      <tr>
+        <th class="cell" id="0"></th>
+        <th class="cell" id="1"></th>
+        <th class="cell" id="2"></th>
+      </tr>
+      <tr>
+        <th class="cell" id="3"></th>
+        <th class="cell" id="4"></th>
+        <th class="cell" id="5"></th>
+      </tr>
+      <tr>
+        <th class="cell" id="6"></th>
+        <th class="cell" id="7"></th>
+        <th class="cell" id="8"></th>
+      </tr>
+    </table>
+    <div class="winText"></div>
+  </body>
+</html>
